@@ -5,7 +5,6 @@ package traffic.traffic1.bean;
  */
 
 public class BillBean {
-    public String xuhao;
 
     public BillBean(String xuhao, String shijian, String caozuoren, String jine, String chehao) {
         this.xuhao = xuhao;
@@ -15,6 +14,7 @@ public class BillBean {
         this.chehao = chehao;
     }
 
+    public String xuhao;
     public String shijian;
     public String caozuoren;
     public String jine;

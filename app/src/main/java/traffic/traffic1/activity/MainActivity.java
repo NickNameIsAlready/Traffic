@@ -84,6 +84,9 @@ public class MainActivity extends BaseActivity
             case R.id.zhangdanguanli:
                 startActivity(new Intent(this, BillActivity.class));
                 break;
+            case R.id.chuanganqijilu:
+                startActivity(new Intent(this, SensorHistoryActivity.class));
+                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
