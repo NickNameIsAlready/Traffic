@@ -3,5 +3,6 @@
 
     <group android:checkableBehavior="single">
         <item android:id="@+id/huanjingzhibiao" android:title="环境指标" android:icon="@drawable/huaji"/>
+        <item android:id="@+id/zhangdanguanli" android:title="账单管理" android:icon="@drawable/huaji"/>
     </group>
 </menu>
