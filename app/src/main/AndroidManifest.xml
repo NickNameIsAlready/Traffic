@@ -35,6 +35,7 @@
         </activity>
         <activity android:name=".activity.BillActivity"/>
         <activity android:name=".activity.SensorHistoryActivity"/>
+        <activity android:name=".activity.SettHresholdActivity"/>
     </application>
 
 </manifest>
