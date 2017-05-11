@@ -2,5 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+        <item android:id="@+id/huanjingzhibiao" android:title="环境指标" android:icon="@drawable/huaji"/>
     </group>
 </menu>
