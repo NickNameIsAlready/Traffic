@@ -14,6 +14,8 @@ import traffic.traffic1.activity.App;
  */
 
 public class SomeTools {
+    //When I wrote this, only God and I understood what I was doing
+    //Now, God only knows
     public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId) {
         // First decode with inJustDecodeBounds=true to check dimensions
         final BitmapFactory.Options options = new BitmapFactory.Options();

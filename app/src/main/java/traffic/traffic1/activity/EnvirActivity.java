@@ -32,33 +32,27 @@ public class EnvirActivity extends BaseActivity{
     @BindView(R.id.daoluzhuangtai) TextView daoluzhuangtai;
     @Override
     protected void initEvent() {
-        JsonObjectRequest getAllSense = new JsonObjectRequest(Request.Method.POST, "http://192.168.0.105:8080/transportservice/type/jason/action/GetAllSense.do"
+        JsonObjectRequest getAllSense = new JsonObjectRequest(Request.Method.POST, "http://192.168.0.110:8080/transportservice/action/GetAllSense.do"
                 , null, response -> {
-            try {
-                String data = response.getString("serverinfo");
-                if (SomeTools.filterServerInfo(data)){
-                    AllSenseBean bean = SomeTools.gsonParse(AllSenseBean.class, data);
-                    kongqishidu.setText(String.valueOf(bean.getHumidity()));
-                    kongqiwendu.setText(String.valueOf(bean.getTemperature()));
-                    guangzhao.setText(String.valueOf(bean.getLightIntensity()));
-                    co2.setText(String.valueOf(bean.getCo2()));
-                    pm25.setText(String.valueOf(bean.get_$Pm25223()));
-                }
-                else
-                    SomeTools.showToast("超时");
-            } catch (JSONException e) {
-                e.printStackTrace();
+            AllSenseBean bean = SomeTools.gsonParse(AllSenseBean.class, response.toString());
+            if (bean.getRESULT().equals("S")){
+                kongqishidu.setText(String.valueOf(bean.getHumidity()));
+                kongqiwendu.setText(String.valueOf(bean.getTemperature()));
+                guangzhao.setText(String.valueOf(bean.getLightIntensity()));
+                co2.setText(String.valueOf(bean.getCo2()));
+                pm25.setText(String.valueOf(bean.get_$Pm25292()));
             }
+            else
+                SomeTools.showToast(getString(R.string.lajiwar));
         }, error -> SomeTools.showToast("网络错误"));
 
         JsonObjectRequest GetRoadStatus = null;
         try {
-            GetRoadStatus = new JsonObjectRequest(Request.Method.POST, "http://192.168.0.105:8080/transportservice/type/jason/action/GetRoadStatus.do"
+            GetRoadStatus = new JsonObjectRequest(Request.Method.POST, "http://192.168.0.105:8080/transportservice/action/GetRoadStatus.do"
                     ,new JSONObject().put("RoadId", 1), response -> {
                 try {
-                    String data = response.getString("serverinfo");
-                    if (SomeTools.filterServerInfo(data)){
-                        daoluzhuangtai.setText(new JSONObject(data).getString("Status"));
+                    if (response.getString("RESULT").equals("S")){
+                        daoluzhuangtai.setText(response.getString("Status"));
                     }
                     else
                         SomeTools.showToast("超时");

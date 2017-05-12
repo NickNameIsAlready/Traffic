@@ -6,6 +6,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="lajiwar">辣鸡服务器又炸了</string>
     <string-array name="bill">
         <item>时间升序</item>
         <item>时间降序</item>

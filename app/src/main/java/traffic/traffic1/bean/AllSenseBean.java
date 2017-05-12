@@ -7,30 +7,47 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class AllSenseBean {
+    /**
+     * RESULT : S
+     * ERRMSG : 成功
+     * pm2.5 : 8
+     * co2 : 5919
+     * LightIntensity : 1711
+     * humidity : 44
+     * temperature : 28
+     */
+
+    private String RESULT;
+    private String ERRMSG;
     @SerializedName("pm2.5")
-    private int _$Pm25223; // FIXME check this code
+    private int _$Pm25292; // FIXME check this code
     private int co2;
     private int LightIntensity;
     private int humidity;
     private int temperature;
 
-    public int get_$Pm25223() {
-        return _$Pm25223;
+    public String getRESULT() {
+        return RESULT;
     }
 
-    @Override
-    public String toString() {
-        return "AllSenseBean{" +
-                "_$Pm25223=" + _$Pm25223 +
-                ", co2=" + co2 +
-                ", LightIntensity=" + LightIntensity +
-                ", humidity=" + humidity +
-                ", temperature=" + temperature +
-                '}';
+    public void setRESULT(String RESULT) {
+        this.RESULT = RESULT;
     }
 
-    public void set_$Pm25223(int _$Pm25223) {
-        this._$Pm25223 = _$Pm25223;
+    public String getERRMSG() {
+        return ERRMSG;
+    }
+
+    public void setERRMSG(String ERRMSG) {
+        this.ERRMSG = ERRMSG;
+    }
+
+    public int get_$Pm25292() {
+        return _$Pm25292;
+    }
+
+    public void set_$Pm25292(int _$Pm25292) {
+        this._$Pm25292 = _$Pm25292;
     }
 
     public int getCo2() {
