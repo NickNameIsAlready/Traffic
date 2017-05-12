@@ -33,6 +33,7 @@ public class MainActivity extends BaseActivity
         toggle.syncState();
 
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setItemIconTintList(null);
     }
 
     @Override
@@ -85,6 +86,9 @@ public class MainActivity extends BaseActivity
                 break;
             case R.id.chuanganqijilu:
                 startActivity(new Intent(this, SensorHistoryActivity.class));
+                break;
+            case R.id.shezhiyuzhi:
+                startActivity(new Intent(this, SettHresholdActivity.class));
                 break;
         }
 
