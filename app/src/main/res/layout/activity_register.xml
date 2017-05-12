@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="traffic.traffic1.activity.RegisterActivity">
+    <EditText
+        android:layout_width="180dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="102dp"
+        android:layout_marginTop="8dp"
+        android:imeOptions="actionNext"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:hint="请输入用户名"
+        android:id="@+id/editText4" />
+    <EditText
+        android:layout_width="180dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteX="102dp"
+        android:imeOptions="actionNext"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:id="@+id/editText" />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintLeft_toLeftOf="@+id/editText4"
+        android:imeOptions="actionNext"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:id="@+id/editText5" />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintLeft_toLeftOf="@+id/editText5"
+        android:hint="请输入手机号码"
+        android:inputType="number"
+        android:id="@+id/editText6" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText6"
+        android:layout_marginTop="0dp"
+        android:text="取消"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/editText6"
+        android:layout_marginTop="0dp"
+        android:text="注册"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+</android.support.constraint.ConstraintLayout>
