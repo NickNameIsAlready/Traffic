@@ -1,5 +1,6 @@
 package traffic.traffic1.activity;
 
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -77,6 +78,13 @@ public class MainActivity extends BaseActivity
         int id = item.getItemId();
         switch (id){
             case R.id.huanjingzhibiao:
+                startActivity(new Intent(this, EnvirActivity.class));
+                break;
+            case R.id.zhangdanguanli:
+                startActivity(new Intent(this, BillActivity.class));
+                break;
+            case R.id.chuanganqijilu:
+                startActivity(new Intent(this, SensorHistoryActivity.class));
                 break;
         }
 

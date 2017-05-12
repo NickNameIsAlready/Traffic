@@ -6,4 +6,19 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string-array name="bill">
+        <item>时间升序</item>
+        <item>时间降序</item>
+    </string-array>
+    <string-array name="sensor_type">
+        <item>空气湿度</item>
+        <item>空气温度</item>
+        <item>光照强度</item>
+        <item>co2</item>
+        <item>pm2.5</item>
+    </string-array>
+    <string-array name="refer_cycle">
+        <item>3/m</item>
+        <item>5/m</item>
+    </string-array>
 </resources>
