@@ -87,8 +87,11 @@ public class MainActivity extends BaseActivity
             case R.id.chuanganqijilu:
                 startActivity(new Intent(this, SensorHistoryActivity.class));
                 break;
+            case R.id.zhanghuchongzhi:
+                startActivity(new Intent(this, RechargeActivity.class));
+                break;
             case R.id.shezhiyuzhi:
-                startActivity(new Intent(this, SettHresholdActivity.class));
+                startActivity(new Intent(this, SetThresholdActivity.class));
                 break;
         }
 
