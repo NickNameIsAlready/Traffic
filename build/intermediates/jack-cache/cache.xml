@@ -74,18 +74,6 @@
         <dex dex="C:\Users\asdf\Desktop\Android1\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d7d53b75c6d6a66d8f86b3b331e12637de6c15fa.jar" />
     </item>
     <item
-        jar="D:\Android\sdk\platforms\android-25\android.jar"
-        revision="25.0.2"
-        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
-        <dex dex="C:\Users\asdf\Desktop\Android1\Traffic\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-ce7661520c3da8e0b04fc492cb363f96ac7248b6.jar" />
-    </item>
-    <item
-        jar="D:\Android\sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
-        revision="25.0.2"
-        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
-        <dex dex="C:\Users\asdf\Desktop\Android1\Traffic\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-42fb61f3f6bdc1bd50c6d813150a70143a841fa8.jar" />
-    </item>
-    <item
         jar="D:\Android\AndroidStudio\gradle\gradle-3.2\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
         revision="25.0.2"
         sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
@@ -96,6 +84,12 @@
         revision="25.0.2"
         sha1="eb305d2ec1f85a4122c5e9d0412c87e20dac20f8">
         <dex dex="C:\Users\asdf\Desktop\Android1\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-29b3dfac7b74adbcbdaad3ca273985141f62b20d.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\Desktop\Android1\Traffic\lib\achartengine-1.1.0.jar"
+        revision="25.0.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\asdf\Desktop\Android1\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\achartengine-1.1.0-38584e2d5c6424eebbeff22e976b857e572d6df1.jar" />
     </item>
     <item
         jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
