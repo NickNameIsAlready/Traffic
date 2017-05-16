@@ -15,6 +15,7 @@
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/title_activity_main"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -37,20 +38,28 @@
         <activity android:name=".activity.Topic17Activity" />
         <activity android:name=".activity.Topic18Activity">
         </activity>
-        <activity android:name=".activity.GuideActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".activity.LoginActivity"
-            android:screenOrientation="landscape"
-            />
-        <activity android:name=".activity.EnvirActivity"
-            android:screenOrientation="landscape"
-            >
-        </activity>
+        <!--<activity android:name=".activity.GuideActivity"-->
+            <!--android:screenOrientation="landscape"-->
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
+        <!--</activity>-->
+        <!--<activity android:name=".activity.LoginActivity"-->
+            <!--android:screenOrientation="landscape"-->
+            <!--/>-->
+        <!--<activity android:name=".activity.EnvirActivity"-->
+            <!--android:screenOrientation="landscape"-->
+            <!--&gt;-->
+        <!--</activity>-->
         <activity android:name=".activity.BillActivity"/>
         <activity android:name=".activity.SensorHistoryActivity"/>
         <activity android:name=".activity.SettHresholdActivity"/>
+
+        <service android:name=".service.GetDataService"></service>
+        <activity android:name=".activity.AlertActivity"></activity>
+        <activity android:name=".activity.LampActivity"></activity>
+        <activity android:name=".activity.BusCountActivity"></activity>
+        <activity android:name=".activity.StateActivity"></activity>
+        <activity android:name=".activity.news"></activity>
+        <activity android:name=".activity.MyCarActivity"></activity>
     </application>
 
 </manifest>

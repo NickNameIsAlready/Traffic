@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_marginTop="30dp"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+          android:padding="5dp"
+          android:text="pm2.5的值：200ug/m3"
+          android:id="@+id/tv_pm"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_marginLeft="5dp"
+          android:text="co2的值：2000ug/m3"
+          android:id="@+id/tv_co2"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+  </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:text="亮度的值：88ug/m3"
+            android:id="@+id/tv_LightIntensity"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="湿度的值：78oC"
+            android:id="@+id/tv_humidity"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:text="温度的值：200oC"
+            android:id="@+id/tv_temperature"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
