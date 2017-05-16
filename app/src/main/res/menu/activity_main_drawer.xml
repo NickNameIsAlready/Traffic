@@ -13,10 +13,10 @@
 
         <item android:id="@+id/Mycar" android:title="我的座驾" android:icon="@drawable/huaji"/>
         <item android:id="@+id/diary" android:title="我的日志" android:icon="@drawable/huaji"/>
-        <item android:id="@+id/traffic" android:title="我的日志" android:icon="@drawable/huaji"/>
-
+<!--         <item android:id="@+id/traffic" android:title="我的日志" android:icon="@drawable/huaji"/> -->
 
 
         <item android:id="@+id/news" android:title="创新题" android:icon="@drawable/huaji"/>
+        <item android:id="@+id/zhanghuchongzhi" android:title="账户充值" android:icon="@drawable/huaji"/>
     </group>
 </menu>

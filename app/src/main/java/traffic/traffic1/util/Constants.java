@@ -65,7 +65,6 @@ public class Constants {
     * 设置小车动作
     * */
     public static String SetCarMove = BaseUrl + "SetCarMove.do";
-
     /*
     * 设置红绿灯当前状态
     *
@@ -93,5 +92,4 @@ public class Constants {
        *
        * */
     public static String SetTrafficLightConfig = BaseUrl + "SetTrafficLightConfig.do";
-
 }

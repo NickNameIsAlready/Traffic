@@ -90,8 +90,29 @@ public class MainActivity extends BaseActivity
             case R.id.chuanganqijilu:
                 startActivity(new Intent(this, SensorHistoryActivity.class));
                 break;
+            case R.id.zhanghuchongzhi:
+                startActivity(new Intent(this, RechargeActivity.class));
+                break;
             case R.id.shezhiyuzhi:
-                startActivity(new Intent(this, SettHresholdActivity.class));
+                startActivity(new Intent(this, SetThresholdActivity.class));
+                break;
+            case R.id.alert://lamp
+                startActivity(new Intent(this, AlertActivity.class));
+                break;
+            case R.id.lamp://BusCount
+                startActivity(new Intent(this, LampActivity.class));
+                break;
+            case R.id.BusCount://state
+                startActivity(new Intent(this,BusCountActivity.class));
+                break;
+            case R.id.state://state
+                startActivity(new Intent(this,StateActivity.class));
+                break;
+            case R.id.news://Mycar
+                startActivity(new Intent(this,news.class));
+                break;
+            case R.id.Mycar://Mycar
+                startActivity(new Intent(this,MyCarActivity.class));
                 break;
             case R.id.alert://lamp
                 startActivity(new Intent(this, AlertActivity.class));

@@ -17,7 +17,7 @@ import traffic.traffic1.bean.AllSenseBean;
 import traffic.traffic1.util.SomeTools;
 
 /**
- * Created by feng on 17-5-11.
+ * Created by feng on 17-5-11
  */
 
 public class EnvirActivity extends BaseActivity{
@@ -32,6 +32,8 @@ public class EnvirActivity extends BaseActivity{
     @BindView(R.id.daoluzhuangtai) TextView daoluzhuangtai;
     @Override
     protected void initEvent() {
+        //When I wrote this, only God and I understood what I was doing
+        //Now, God only knows
         JsonObjectRequest getAllSense = new JsonObjectRequest(Request.Method.POST, "http://192.168.0.110:8080/transportservice/action/GetAllSense.do"
                 , null, response -> {
             AllSenseBean bean = SomeTools.gsonParse(AllSenseBean.class, response.toString());
