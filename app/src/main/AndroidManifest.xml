@@ -16,41 +16,31 @@
             android:name=".activity.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".activity.GuideActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.LoginActivity"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".activity.EnvirActivity"
-            android:screenOrientation="landscape">
-
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
+        <activity android:name=".activity.Topic19Activity"></activity>
+        <activity android:name=".activity.Tocpic21Activity"> </activity>
+        <activity android:name=".activity.Tocpic22Activity"></activity>
         </activity>
         <activity android:name=".activity.NetSettingActivity" />
         <activity android:name=".activity.Topic17Activity" />
-        <activity android:name=".activity.Topic18Activity" />
-        <activity android:name=".activity.BillActivity" />
-        <activity android:name=".activity.SensorHistoryActivity" />
-        <activity android:name=".activity.SettHresholdActivity" />
-        <activity android:name=".activity.Topic19Activity"></activity>
-        <activity android:name=".activity.Tocpic21Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".activity.Topic18Activity">
         </activity>
-        <activity android:name=".activity.Tocpic22Activity"></activity>
+        </activity>
+        <activity android:name=".activity.LoginActivity" android:screenOrientation="landscape" />
+    <activity android:name=".activity.EnvirActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BillActivity"/>
+        <activity android:name=".activity.SensorHistoryActivity"/>
+        <activity android:name=".activity.SetThresholdActivity"/>
+        <activity android:name=".activity.RechargeActivity"/>
     </application>
 
 </manifest>

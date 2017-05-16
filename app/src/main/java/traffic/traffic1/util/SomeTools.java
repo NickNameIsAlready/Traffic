@@ -7,6 +7,9 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import traffic.traffic1.activity.App;
 
 /**
@@ -14,6 +17,8 @@ import traffic.traffic1.activity.App;
  */
 
 public class SomeTools {
+    //When I wrote this, only God and I understood what I was doing
+    //Now, God only knows
     public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId) {
         // First decode with inJustDecodeBounds=true to check dimensions
         final BitmapFactory.Options options = new BitmapFactory.Options();
@@ -31,6 +36,10 @@ public class SomeTools {
 
     public static <T> T gsonParse(Class<T> bean, String jsonData){
         return new Gson().fromJson(jsonData, bean);
+    }
+
+    public static boolean isSuccess(JSONObject object) throws JSONException {
+        return object.getString("RESULT").equals("S");
     }
 
     public static boolean filterServerInfo(String serverinfo){
