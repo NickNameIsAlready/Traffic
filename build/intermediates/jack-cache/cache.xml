@@ -12,7 +12,7 @@
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-7b04219d038301dc83bf282e1c9a494ea3b0ab91.jar" />
-    </item>
+    </item><<<<<<< master
     <item
         jar="/home/feng/.android/build-cache/3035f1a325e92ce67f59e5c575bc0fdcf8e79d02/output/jars/classes.jar"
         revision="25.0.2"
@@ -74,19 +74,6 @@
         <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-ecc9ab9891ec509f6c33f8063ff96e60be7253d5.jar" />
     </item>
     <item
-        jar="/home/feng/.android/build-cache/27b78cefeae8c406cdf39664e85b6adc3ad10804/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e71d9c5d988ca4c8c58070852c5beb37d07a3e36.jar" />
-    </item>
-    <item
-        jar="/home/feng/.android/build-cache/16f9ed6669f51e964ed8c4eb9e4576fce5bb2704/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-86cff2f8e71f997dc9775a86983d08cfb724cff8.jar" />
-    </item>
-    <item
-        jar="/home/feng/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.8/47fadd5ff70f325e520fbc491227bd9283a48f95/rxjava-2.0.8.jar"
         revision="25.0.2"
         sha1="47fadd5ff70f325e520fbc491227bd9283a48f95">
         <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/rxjava-2.0.8-34a2ffbd42ab50f7acb7489879a536679489f464.jar" />
@@ -98,7 +85,6 @@
         <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-2aaf2d528970b641726b57c47130293cffecbdc1.jar" />
     </item>
     <item
-        jar="/home/feng/.android/build-cache/39739305472819eea0f025e4d46a16dd8c3703b4/output/jars/classes.jar"
         revision="25.0.2"
         sha1="7113302c965566b66df46c6ca75ea301576114a5">
         <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-faf6687aa698a798fdc548f5e3077e2c15cbef69.jar" />
