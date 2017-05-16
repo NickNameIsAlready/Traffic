@@ -16,5 +16,6 @@
 
 
         <item android:id="@+id/news" android:title="创新题" android:icon="@drawable/huaji"/>
+        <item android:id="@+id/zhanghuchongzhi" android:title="账户充值" android:icon="@drawable/huaji"/>
     </group>
 </menu>
