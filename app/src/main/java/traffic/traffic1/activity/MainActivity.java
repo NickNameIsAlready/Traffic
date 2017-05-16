@@ -108,8 +108,14 @@ public class MainActivity extends BaseActivity
             case R.id.news://Mycar
                 startActivity(new Intent(this,news.class));
                 break;
-            case R.id.Mycar://Mycar
+            case R.id.Mycar://diary
                 startActivity(new Intent(this,MyCarActivity.class));
+                break;
+            case R.id.diary://diary
+                startActivity(new Intent(this,DiaryActivity.class));
+                break;
+            case R.id.traffic://diary
+                startActivity(new Intent(this,TrafficActivity.class));
                 break;
         }
 

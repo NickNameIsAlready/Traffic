@@ -60,6 +60,8 @@
         <activity android:name=".activity.StateActivity"></activity>
         <activity android:name=".activity.news"></activity>
         <activity android:name=".activity.MyCarActivity"></activity>
+        <activity android:name=".activity.DiaryActivity"></activity>
+        <activity android:name=".activity.TrafficActivity"></activity>
     </application>
 
 </manifest>

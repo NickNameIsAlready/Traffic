@@ -12,6 +12,8 @@
         <item android:id="@+id/state" android:title="道路状态" android:icon="@drawable/huaji"/>
 
         <item android:id="@+id/Mycar" android:title="我的座驾" android:icon="@drawable/huaji"/>
+        <item android:id="@+id/diary" android:title="我的日志" android:icon="@drawable/huaji"/>
+        <item android:id="@+id/traffic" android:title="我的日志" android:icon="@drawable/huaji"/>
 
 
 
