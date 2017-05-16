@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#57cdf1">
+
+        <TextView
+            android:id="@+id/tv_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="我的日志"
+            android:layout_alignBaseline="@+id/btn"
+            android:layout_alignBottom="@+id/btn"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/transparent"
+            android:text="当前用户:xxx" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_diary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+     android:gravity="center"
+      android:id="@+id/rg"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="50dp">
+      <RadioButton
+          android:id="@+id/rb_lamp"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:text="路灯管理"
+          android:textSize="16sp"
+          android:button="@null"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_diary"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:text="日志管理"
+          android:textSize="16sp"
+          android:button="@null"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+  </RadioGroup>
+
+</LinearLayout>

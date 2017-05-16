@@ -2,6 +2,94 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\asdf\.android\build-cache\1fbade1ebfaab17471d2e4455ff6757d20cdaa42\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-37a4a119bc60aea75e080053d85097f7fcd4ed09.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-library-1.3-124ff31a877a393d2d21a646fef6addc9a909471.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.android\build-cache\c2557aa5b2b1f5e1f53ddb544fc22d27e3ecf9d5\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-ca056465a48b527292e1921e1f20f7f4c7874aab.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.annotation-api-1.2-2367940866aea42ec14245896343840e952138f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\AppData\Local\Android\Sdk\platforms\android-25\android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackRuntimeLibraries\androidTest\debug\jars\8000\40\android-b6d0de93cd5f9c47c914e6d9c50923d13389d1b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\AppData\Local\Android\Sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackRuntimeLibraries\androidTest\debug\jars\8000\40\org.apache.http.legacy-7ee39a2f729cd1a2a7cc9f1756a44a6b7a023d62.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-integration-1.3-54b872c7d3fc474de809dd1786ef6531ad694d77.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.android\build-cache\bc1708a7e8fe6e258c50b720d0896b18401cf5c3\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-f2e3a3cabfa7ab9c63466ba4d8c23f668aacc838.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.android\build-cache\23762218d6f49db56365d9d5588da2f2c27957b3\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-5085885f3a158e7369790bb976669eb522b8f365.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.android\build-cache\2a3ab770e233aede5c76cc26341db0c41fb41043\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-54a179d97618c8694975d448d4e0969523fbb974.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.inject-1-d9866fde7e3f19a1df599a00c5c4f42b650d5057.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\jsr305-2.0.1-2c0af29c74a198ece9e52ac48276c2098a7282f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javawriter-2.1.1-368238e324e89f623c54447e10029be510b7db8b.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\junit-4.12-4d4db683e5adac8dfe80ec144835332e4912fc39.jar" />
+    </item>
+    <item
+        jar="C:\Users\asdf\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\android_asdaima\Traffic\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-core-1.3-cd94354b6cdcefca26ea99f925decb72a877c289.jar" />
     jar="C:\Users\asdf\.android\build-cache\1fbade1ebfaab17471d2e4455ff6757d20cdaa42\output\jars\classes.jar"
     revision="25.0.2"
     sha1="796f9229948e907471c5595fbe94655ccf03ff73">
@@ -215,7 +303,7 @@
     </item>
     <item
         jar="/home/feng/.android/build-cache/129ba0bf7175a1d3b6a89f8083ab3b7bab2c351a/output/jars/classes.jar"
-        revision="25.0.2"
+        revision="25.0.2">>>>>>> master
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="/home/feng/AndroidStudioProjects/Traffic1/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-ab2580aabb5a95e1e9e039f473dcbb1310828cc7.jar" />
     </item>

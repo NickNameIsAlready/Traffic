@@ -7,8 +7,11 @@
         android:icon="@mipmap/ic_launcher" android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".activity.MainActivity" android:label="@string/title_activity_main"
-            android:launchMode="singleTask" android:screenOrientation="landscape"
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +29,6 @@
         <activity android:name=".activity.BillActivity" />
         <activity android:name=".activity.SensorHistoryActivity" />
         <activity android:name=".activity.SettHresholdActivity" />
-
         <service android:name=".service.GetDataService"></service>
         <activity android:name=".activity.AlertActivity"></activity>
         <activity android:name=".activity.LampActivity"></activity>
@@ -34,9 +36,10 @@
         <activity android:name=".activity.StateActivity"></activity>
         <activity android:name=".activity.news"></activity>
         <activity android:name=".activity.MyCarActivity"></activity>
+        <activity android:name=".activity.DiaryActivity"></activity>
+        <activity android:name=".activity.TrafficActivity"></activity>
         <activity android:name=".activity.LoginActivity" android:screenOrientation="landscape" />
         <activity android:name=".activity.EnvirActivity" android:screenOrientation="landscape" />
-        <activity android:name=".activity.BillActivity" />
         <activity android:name=".activity.SensorHistoryActivity" />
         <activity android:name=".activity.SetThresholdActivity" />
         <activity android:name=".activity.RechargeActivity" />
