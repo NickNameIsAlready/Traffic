@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动模式" />
+  <LinearLayout
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <Spinner
+          android:id="@+id/sp_toggleId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"></Spinner>
+
+      <Switch
+          android:id="@+id/toggle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+           />
+      <Button
+          android:text="设置"
+          android:background="@android:color/transparent"
+          android:id="@+id/btn_confirm"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="路灯号:" />
+
+        <Spinner
+            android:id="@+id/sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="查询" />
+
+    </LinearLayout>
+</LinearLayout>

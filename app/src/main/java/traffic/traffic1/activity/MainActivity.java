@@ -2,6 +2,8 @@ package traffic.traffic1.activity;
 
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -11,6 +13,7 @@ import android.view.MenuItem;
 
 import butterknife.BindView;
 import traffic.traffic1.R;
+import traffic.traffic1.fragment.LampFragment;
 
 public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -92,6 +95,24 @@ public class MainActivity extends BaseActivity
                 break;
             case R.id.shezhiyuzhi:
                 startActivity(new Intent(this, SetThresholdActivity.class));
+                break;
+            case R.id.alert://lamp
+                startActivity(new Intent(this, AlertActivity.class));
+                break;
+            case R.id.lamp://BusCount
+                startActivity(new Intent(this, LampActivity.class));
+                break;
+            case R.id.BusCount://state
+                startActivity(new Intent(this,BusCountActivity.class));
+                break;
+            case R.id.state://state
+                startActivity(new Intent(this,StateActivity.class));
+                break;
+            case R.id.news://Mycar
+                startActivity(new Intent(this,news.class));
+                break;
+            case R.id.Mycar://Mycar
+                startActivity(new Intent(this,MyCarActivity.class));
                 break;
         }
 
