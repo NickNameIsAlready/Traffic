@@ -17,5 +17,6 @@
         <item android:id="@+id/news" android:title="创新题" android:icon="@drawable/huaji"/>
         <item android:id="@+id/zhanghuchongzhi" android:title="账户充值" android:icon="@drawable/huaji"/>
         <item android:id="@+id/daoluzhuangtai" android:title="道路状态" android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/lamp_manger" android:title="路灯管理" android:icon="@drawable/huaji"/>
     </group>
 </menu>

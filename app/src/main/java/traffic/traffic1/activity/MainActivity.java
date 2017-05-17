@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import butterknife.BindView;
 import traffic.traffic1.R;
+import traffic.traffic1.fragment.LightMangerFragment;
 
 public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -18,6 +19,10 @@ public class MainActivity extends BaseActivity
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.drawer_layout) DrawerLayout drawer;
     @BindView(R.id.nav_view) NavigationView navigationView;
+
+    public Toolbar getToolbar(){
+        return toolbar;
+    }
 
     @Override
     protected void initEvent() {
@@ -116,6 +121,9 @@ public class MainActivity extends BaseActivity
                 break;
             case R.id.daoluzhuangtai:
                 startActivity(new Intent(this, RoadStatusActivity.class));
+                break;
+            case R.id.lamp_manger:
+                getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new LightMangerFragment()).commit();
                 break;
 //            case R.id.traffic://diary
 //                startActivity(new Intent(this,TrafficActivity.class));
