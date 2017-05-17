@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bill">
+        <item>时间升序</item>
+        <item>时间降序</item>
+    </string-array>
+    <string-array name="sensor_type">
+        <item>空气湿度</item>
+        <item>空气温度</item>
+        <item>光照强度</item>
+        <item>co2</item>
+        <item>pm2.5</item>
+    </string-array>
+    <string-array name="refer_cycle">
+        <item>3/m</item>
+        <item>5/m</item>
+    </string-array>
+    <string-array name="chehao">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="road_status">
+        <item>道路状态升序</item>
+        <item>道路状态降序</item>
+    </string-array>
+</resources>

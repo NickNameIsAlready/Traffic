@@ -41,6 +41,7 @@
         <activity android:name=".activity.SensorHistoryActivity" />
         <activity android:name=".activity.SetThresholdActivity" />
         <activity android:name=".activity.RechargeActivity" />
+        <activity android:name=".activity.RoadStatusActivity"/>
     </application>
 
 </manifest>
